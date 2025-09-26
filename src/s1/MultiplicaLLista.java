@@ -17,9 +17,12 @@ public class MultiplicaLLista {
             llistaTasques.add(calcula);
         }
         List <Future<Integer>> llistaResultats;
-        llistaResultats = executor.invokeAll(llistaTasques);
 
+        Long ti = System.currentTimeMillis();
+        llistaResultats = executor.invokeAll(llistaTasques);
         executor.shutdown();
+        Long tf = System.currentTimeMillis();
+
         for (int i = 0; i < llistaResultats.size(); i++) {
             Future<Integer> resultat = llistaResultats.get(i);
             try {
@@ -27,6 +30,8 @@ public class MultiplicaLLista {
             } catch (InterruptedException | ExecutionException e) {
             }
         }
+        System.out.println("ha trigat " + (tf-ti) + " milisegons");
+
 
     }
 }
