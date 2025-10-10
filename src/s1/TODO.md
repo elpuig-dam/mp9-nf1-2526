@@ -1,6 +1,6 @@
 ## Callables - Runnables -Executors
 
-[x] Executor+Callable Exercici Alumnes que fan un exàmen. Seqüencial i concurrent
+[x] Executor+Callable Exercici Alumnes que fan un exàmen. Seqüencial i concurrent  
 [x] Executor+Runnable Paletes
 
 ## Exercici:
