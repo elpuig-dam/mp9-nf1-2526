@@ -1,7 +1,8 @@
 ## Callables - Runnables -Executors
 
 [x] Executor+Callable Exercici Alumnes que fan un exàmen. Seqüencial i concurrent  
-[x] Executor+Runnable Paletes
+[x] Executor+Runnable Paletes, Alumnes/Notes  
+[x] ScheduledTheradPool Cargols, Jugadors, Estació Metereològica  
 
 ## Exercici:
 Crea un programa que simuli una estació meteorològica senzilla. Hi ha diversos sensors (per exemple, temperatura, humitat, velocitat del vent) que generen lectures aleatòries periòdicament. Cada pocs segons, el programa imprimeix les últimes lectures de tots els sensors.
