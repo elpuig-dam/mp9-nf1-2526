@@ -23,9 +23,9 @@ public class Joc {
         DonarPuntsJugador dpj2 = new DonarPuntsJugador(jugador2);
         DonarPuntsJugador dpj3 = new DonarPuntsJugador(jugador3);
 
-        LlegirPuntsJugador lpj1 = new  LlegirPuntsJugador(jugador);
-        LlegirPuntsJugador lpj2 = new  LlegirPuntsJugador(jugador2);
-        LlegirPuntsJugador lpj3 = new  LlegirPuntsJugador(jugador3);
+        //LlegirPuntsJugador lpj1 = new  LlegirPuntsJugador(jugador);
+        //LlegirPuntsJugador lpj2 = new  LlegirPuntsJugador(jugador2);
+        //LlegirPuntsJugador lpj3 = new  LlegirPuntsJugador(jugador3);
 
         ScheduledExecutorService schExService = Executors.newScheduledThreadPool(3);
         schExService.scheduleWithFixedDelay(dpj1, 2, 5, TimeUnit.SECONDS);

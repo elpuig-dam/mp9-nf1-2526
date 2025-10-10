@@ -19,7 +19,7 @@ public class FerParetC {
 		//Donem nom als paletes i els posem a fer fer la paret
 		for (int i=0;i<numPaletes;i++) {
 			P[i] = new PaletaP("Paleta-"+i,numMaons);
-			executor.execute(P[i]);
+            executor.execute(P[i]);
 		}
 
 		executor.shutdown();
